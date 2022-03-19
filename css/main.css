@@ -147,15 +147,17 @@ p .paragraph {
 .btn-order-check {
   display: flex;
   justify-content: center;
-  margin: 4rem 0;
+  margin: 19rem 0;
   padding: 2rem;
   text-transform: uppercase;
   font-size: 1.5rem;
+  transition: 100ms;
 }
 
 .btn-Order {
   margin: auto 2rem;
   border-bottom: #000;
+  transition: 100ms;
 }
 
 .btn-Order:hover {
@@ -165,6 +167,7 @@ p .paragraph {
   cursor: pointer;
   border-radius: 1rem;
   padding: 1rem 2rem;
+  transition: 1000ms;
 }
 
 .btn-Checkout:hover {
@@ -174,13 +177,14 @@ p .paragraph {
   cursor: pointer;
   border-radius: 1rem;
   padding: 1rem 2rem;
+  transition: 1000ms;
 }
 .third-container {
   background-color: #000;
   color: var(--font-color);
   align-items: center;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 30rem;
 }
 
 .appTitle {
