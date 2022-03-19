@@ -106,16 +106,28 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   /* margin: 2rem 3rem; */
-  display: none;
 }
 
 .small-imag-toppings {
   width: 15rem;
   padding: 2rem;
+}
+
+#HiddenParagraph{
+  display: none;
+}
+
+#Paragraphhidden{
+  display: none;
+}
+
+#hiddenThirdParagraph{
   display: none;
 }
 
 p .paragraph {
+  display: none;
+  cursor: pointer;
   margin: 3rem;
   padding: 2rem 3rem;
 }

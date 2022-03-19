@@ -14,6 +14,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -35,16 +41,31 @@
       <div class="service-title">service</div>
       <div class="small-container">
         <div class="containers">
-          <div class="title">Pizza</div>
-          <img class="small-imag" src="/images/pizza.jpg" alt="pizza" />
-          <p class="paragraph">
-            Our pizza gives you the best of blend of Kenyan and Italian
-            flavours. Indulge yourself , no guilty pleasures only the good stuff
-            <strong>PRICES:</strong><br />
-            1.Small 100/=<br />
-            2.Medium 250/=<br />
-            3.Large 350/=
-          </p>
+          <div class="toggle">
+            <div class="title">Pizza</div>
+            <p>
+              Please Click You <b>Read</b> and
+              <b>
+                <br />
+                The Prices</b
+              >
+            </p>
+            <img
+              class="small-imag"
+              id="smallImgToggle"
+              src="/images/pizza.jpg"
+              alt="pizza"
+            />
+            <p class="paragraph" id="HiddenParagraph">
+              Our pizza gives you the best of blend of Kenyan and Italian
+              flavours. Indulge yourself , no guilty pleasures only the good
+              stuff
+              <strong>PRICES:</strong><br />
+              1.Small 100/=<br />
+              2.Medium 250/=<br />
+              3.Large 350/=
+            </p>
+          </div>
           <form>
             <select class="form-input" name="pizza" id="pizza">
               <option value="Small">Small</option>
@@ -54,20 +75,30 @@
           </form>
         </div>
         <div class="containers">
-          <div class="title">Toppings</div>
-          <img
-            class="small-imag-toppings"
-            src="/images/toppings 1.png"
-            alt="toppings"
-          />
-          <p class="paragraph">
-            Your crust your choice we are here to facilitate your pizza
-            experience to the next level. Try a different kind of crust today
-          </p>
-          <strong>PRICES:</strong><br />
-          1.Olives 150/=<br />
-          2.Chesse 300/=<br />
-          3.Pepperoni 400/=
+          <div id="secontoggle">
+            <div class="title">Toppings</div>
+            <p>
+              Please Click You <b>Read</b> and
+              <b>
+                <br />
+                The Prices</b
+              >
+            </p>
+            <img
+              class="small-imag-toppings"
+              id="secondToggle-img"
+              src="/images/toppings 1.png"
+              alt="toppings"
+            />
+            <p class="paragraph" id="Paragraphhidden">
+              Your crust your choice we are here to facilitate your pizza
+              experience to the next level. Try a different kind of crust today
+              <strong>PRICES:</strong><br />
+              1.Olives 150/=<br />
+              2.Chesse 300/=<br />
+              3.Pepperoni 400/=
+            </p>
+          </div>
           <form>
             <select class="form-input" name="pizza" id="pizza">
               <option value="Small">Olives</option>
@@ -77,16 +108,25 @@
           </form>
         </div>
         <div class="containers">
-          <div class="title">crust</div>
-          <img class="small-imag" src="/images/crust.jpg" alt="" srcset="" />
-          <p class="paragraph">
-            Your crust your choice we are here to facilitate your pizza
-            experience to the next level. Try a different kind of crust today
-          </p>
-          <strong>PRICES:</strong><br />
-          1.Stuffed 100/=<br />
-          2.GlutenFree 150/=<br />
-          3.Crispy 500/=
+          <div class="thirdToggle">
+            <div class="title">crust</div>
+            <p>
+              Please Click You <b>Read</b> and
+              <b>
+                <br />
+                The Prices</b
+              >
+            </p>
+            <img id="thirdImageToggle" class="small-imag" src="/images/crust.jpg" alt="" srcset="" />
+            <p class="paragraph" id="hiddenThirdParagraph">
+              Your crust your choice we are here to facilitate your pizza
+              experience to the next level. Try a different kind of crust today
+              <strong>PRICES:</strong><br />
+              1.Stuffed 100/=<br />
+              2.GlutenFree 150/=<br />
+              3.Crispy 500/=
+            </p>
+          </div>
           <form>
             <select class="form-input" name="pizza" id="pizza">
               <option value="Small">Stuffed</option>
@@ -133,5 +173,10 @@
       </div>
     </div> -->
   </body>
-  <script src="/js/script.js "></script>
+  <script src="/js/script.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
 </html>
