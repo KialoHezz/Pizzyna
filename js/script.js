@@ -23,7 +23,7 @@ const foodStuff = {
   pizzaSize: {
     small: "100",
     medium: "250",
-    larger: "350",
+    large: "350",
   },
   toppings: {
     olive: "150",
