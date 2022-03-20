@@ -48,6 +48,7 @@ order.addEventListener("click", function () {
 
 checkOut.addEventListener("click", function (yes, no) {});
 
+// function to display to the user.
 function outPutToUser(){
   document.querySelector(".container-display").innerHTML = "Your Snacks Are:" + foodStuff;
 }
