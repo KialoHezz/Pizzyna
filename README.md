@@ -4,16 +4,16 @@
 ### Authors Name 
 - Hezron Ngoma
 
-###Project Description
+### Project Description
 - Please select Pizza,crust and toppings before your order.
 - Checkout to feed in info for delivery if **YES**
 
-###Set-Up Instruction
+### Set-Up Instruction
 - Clone this repository to a location in your file system. https://github.com/hezron-ngoma-hezzykialo/Pizzyna.git 
 - Open terminal  then navigate to the root folder of the application. cd pizzyna
 - Open index.html on your Browser.
 
-###BDD
+### BDD
 - Landing Page having Four Section namely:
 				Show case section
 				Services section : Has small divison such as ; Toppings , Crust and pizza which has several option in each of them and user should select in each of it's wants
@@ -22,15 +22,15 @@
 				Then calculate for total and output the result.
 
 
-###Technologies Used
+### Technologies Used
 - HTML
 - CSS
 - JAVASCRIPT
 
-###Contact-Info:
+### Contact-Info:
 - HEZZYKIALO@GMAILCOM.
 - Phone: +254703701651
 
 
-##Licence $ CopyRight
+### Licence $ CopyRight
 - Pizzyna Licence on 2022 and all rights are protected.
