@@ -15,41 +15,39 @@ $(document).ready(function () {
 });
 
 // business logic
+const order = document.getElementById("orderBtn");
+const checkOut = document.getElementById("checkOutBnt");
 
-//getting option button,order,checkout
-
-const optionPizza = document.getElementById("pizza").value;
-const optionToppings = document.getElementById("toppings").value;
-const optionCrust = document.getElementById("crust").value;
-
-//create an object pizzaSize
-const pizzaSize = {
-  small: "100",
-  medium: "250",
-  larger: "350",
-};
-
-//create an object toppings
-const toppings = {
-  olive: "150",
-  chesse: "300",
-  Pepperoni: "400",
-};
-
-//create an object crust
-const crust = {
-  stuffed: "100",
-  glutterFree: "150",
-  crispy: "500",
+//create an object pizzaSize ,toppings and crust
+const foodStuff = {
+  pizzaSize: {
+    small: "100",
+    medium: "250",
+    larger: "350",
+  },
+  toppings: {
+    olive: "150",
+    chesse: "300",
+    Pepperoni: "400",
+  },
+  crust: {
+    stuffed: "100",
+    glutterFree: "150",
+    crispy: "500",
+  },
 };
 
 //event listener to order and checkout button
 
 order.addEventListener("click", function () {
-  const order = document.getElementById("orderBtn");
-  const checkOut = document.getElementById("checkOutBnt"); 
+  const optionPizza = document.getElementById("pizza").value;
+  const optionToppings = document.getElementById("toppings").value;
+  const optionCrust = document.getElementById("crust").value;
+  const food = foodStuff[optionPizza.select][optionToppings.select][optionCrust];
 });
 
-checkOut.addEventListener("click", function (yes, no) {
-  
-});
+checkOut.addEventListener("click", function (yes, no) {});
+
+function outPutToUser(){
+  document.querySelector(".container-display").innerHTML = "Your Snacks Are:" + foodStuff;
+}
