@@ -21,8 +21,6 @@ $(document).ready(function () {
 const optionPizza = document.getElementById("pizza").value;
 const optionToppings = document.getElementById("toppings").value;
 const optionCrust = document.getElementById("crust").value;
-const order = document.getElementById("orderBtn");
-const checkOut = document.getElementById("checkOutBnt");
 
 //create an object pizzaSize
 const pizzaSize = {
@@ -47,6 +45,11 @@ const crust = {
 
 //event listener to order and checkout button
 
-order.addEventListener("click", function(){
+order.addEventListener("click", function () {
+  const order = document.getElementById("orderBtn");
+  const checkOut = document.getElementById("checkOutBnt"); 
+});
+
+checkOut.addEventListener("click", function (yes, no) {
   
-})
+});
