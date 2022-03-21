@@ -53,7 +53,7 @@
             <img
               class="small-imag"
               id="smallImgToggle"
-              src="/images/pizza.jpg"
+              src="./images/pizza.jpg"
               alt="pizza"
             />
             <p class="paragraph" id="HiddenParagraph">
@@ -68,9 +68,9 @@
           </div>
           <form>
             <select class="form-input" name="pizza" id="pizza">
-              <option value="Small">Small</option>
-              <option>Medium</option>
-              <option>Large</option>
+              <option value="100">Small</option>
+              <option value="250">Medium</option>
+              <option value="350">Large</option>
             </select>
           </form>
         </div>
@@ -87,7 +87,7 @@
             <img
               class="small-imag-toppings"
               id="secondToggle-img"
-              src="/images/toppings 1.png"
+              src="./images/toppings 1.png"
               alt="toppings"
             />
             <p class="paragraph" id="Paragraphhidden">
@@ -101,9 +101,9 @@
           </div>
           <form>
             <select class="form-input" name="pizza" id="toppings">
-              <option value="Small">Olives</option>
-              <option>Chesse</option>
-              <option>Pepperoni</option>
+              <option value="150">Olives</option>
+              <option value="300">Chesse</option>
+              <option value="400">Pepperoni</option>
             </select>
           </form>
         </div>
@@ -117,7 +117,13 @@
                 The Prices</b
               >
             </p>
-            <img id="thirdImageToggle" class="small-imag" src="/images/crust.jpg" alt="" srcset="" />
+            <img
+              id="thirdImageToggle"
+              class="small-imag"
+              src="./images/crust.jpg"
+              alt=""
+              srcset=""
+            />
             <p class="paragraph" id="hiddenThirdParagraph">
               Your crust your choice we are here to facilitate your pizza
               experience to the next level. Try a different kind of crust today
@@ -129,13 +135,29 @@
           </div>
           <form>
             <select class="form-input" name="pizza" id="crust">
-              <option value="Small">Stuffed</option>
-              <option>GlutenFree</option>
-              <option>Crispy</option>
+              <option value="100">Stuffed</option>
+              <option value="150">GlutenFree</option>
+              <option value="500">Crispy</option>
             </select>
           </form>
         </div>
       </div>
+      <table>
+        <tr>
+          <th>Order No.</th>
+          <th>PizzaSize</th>
+          <th>Toppings</th>
+          <th>crust</th>
+          <th>totals</th>
+        </tr>
+        <tr>
+          <td >1</td>
+          <td id="pizza"></td>
+          <td id="toppings"></td>
+          <td id="crust"></td>
+          <td id="total"></td>
+        </tr>
+      </table>
       <div class="container-display">Display</div>
       <div class="btn-order-check">
         <div class="btn-Order" id="orderBtn">Order</div>
@@ -154,26 +176,8 @@
       </div>
       <div class="copyright-licence">@Copyright && copyright-licence 2022</div>
     </div>
-    <!-- <div class="container-fluid">
-      <div class="row" id="row-img-service">
-        <div class="col-10"><img class="image-col-9" src="images/logo 1.png" /></div>
-        <div class="col-1" id="service">service</div>
-      </div>
-      <div class="row align-item-center">
-        <div class="col" id="Welcome">Welcome</div>
-      </div>
-      <div class="row">
-        <div class="col">Pizzyna pizza</div>
-      </div>
-      <div class="row">
-        <div class="col">Slogan</div>
-        <div class="col">
-          Get One To Be Happy:In Yourself generate Happiness
-        </div>
-      </div>
-    </div> -->
   </body>
-  <script src="/js/script.js"></script>
+  <script src="./js/script.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="

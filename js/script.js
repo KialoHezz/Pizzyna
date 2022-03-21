@@ -39,16 +39,26 @@ const foodStuff = {
 
 //event listener to order and checkout button
 
-order.addEventListener("click", function () {
-  const optionPizza = document.getElementById("pizza").value;
-  const optionToppings = document.getElementById("toppings").value;
-  const optionCrust = document.getElementById("crust").value;
-  const food = foodStuff[optionPizza.select][optionToppings.select][optionCrust];
+$("#orderBtn").click(function (event) {
+  event.preventDefault();
+  const optionPizza = $("#pizza option:selected").val();
+  const optionToppings = $("#toppings option:seclected").val();
+  const optionCrust = $("#crust option:selected").val();
+  const fulltotal =
+    parseInt(optionPizza) + parseInt(optionToppings) + parseInt(optionCrust);
+  let orderO = 1;
+  let grandTotal = 0;
+
 });
+ 
+
+
+
 
 checkOut.addEventListener("click", function (yes, no) {});
 
 // function to display to the user.
-function outPutToUser(){
-  document.querySelector(".container-display").innerHTML = "Your Snacks Are:" + foodStuff;
+function outPutToUser() {
+  document.querySelector(".container-display").innerHTML =
+    "Your Snacks Are:" + foodPrice;
 }
