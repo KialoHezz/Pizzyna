@@ -22,7 +22,6 @@ body {
 
 .container {
   align-items: center;
-  background: black url(./images/bg1.jpg);
   height: 500px;
 }
 
