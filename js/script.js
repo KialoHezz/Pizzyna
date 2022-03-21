@@ -42,23 +42,17 @@ const foodStuff = {
 $("#orderBtn").click(function (event) {
   event.preventDefault();
   const optionPizza = $("#pizza option:selected").val();
-  const optionToppings = $("#toppings option:seclected").val();
+  const optionToppings = $("#toppings option:selected").val();
   const optionCrust = $("#crust option:selected").val();
-  const fulltotal =
+  const foodPrice =
     parseInt(optionPizza) + parseInt(optionToppings) + parseInt(optionCrust);
-  let orderO = 1;
-  let grandTotal = 0;
+  // function to display to the user.
 
-});
- 
-
-
-
-
-checkOut.addEventListener("click", function (yes, no) {});
-
-// function to display to the user.
-function outPutToUser() {
   document.querySelector(".container-display").innerHTML =
     "Your Snacks Are:" + foodPrice;
-}
+
+  let orderO = 1;
+  let grandTotal = 0;
+});
+
+checkOut.addEventListener("click", function (yes, no) {});

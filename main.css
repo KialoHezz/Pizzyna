@@ -22,6 +22,7 @@ body {
 
 .container {
   align-items: center;
+  background: black url("./images/bg1.jpg");
   height: 500px;
 }
 
@@ -112,15 +113,15 @@ body {
   padding: 2rem;
 }
 
-#HiddenParagraph{
+#HiddenParagraph {
   display: none;
 }
 
-#Paragraphhidden{
+#Paragraphhidden {
   display: none;
 }
 
-#hiddenThirdParagraph{
+#hiddenThirdParagraph {
   display: none;
 }
 
@@ -192,6 +193,6 @@ p .paragraph {
   text-transform: uppercase;
 }
 
-table{
+table {
   display: none;
 }
